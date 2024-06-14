@@ -215,7 +215,7 @@ button {
 .header_section {
     width: 100%;
     float: left;
-    background-image: url(../images/banner-bg.png);
+    background-image: url();
     height: auto;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -312,30 +312,38 @@ button {
 .banner_taital_main {
     width: 100%;
     float: left;
-    padding-top: 80px;
+    padding-top: 30px;
 }
 
 .banner_taital {
-    width: 100%;
-    font-size: 90px;
+    width: 60%;
+    font-size: 40px;
     color: #252525;
     font-weight: 800;
+    text-align: -webkit-center;
 }
 
 .tasty_text {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
     width: 100%;
     float: left;
     font-size: 24px;
     color: #e38773;
     font-weight: bold;
+    text-align: center;
 }
 
 .banner_text {
-    width: 100%;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    width: 60%;
     float: left;
-    font-size: 16px;
-    color: #4a4949;
+    font-size: 25px;
+    color: #e38773;
     margin: 0px;
+    text-align: -webkit-center;
+    line-height: normal;
 }
 
 .btn_main {
@@ -366,11 +374,13 @@ button {
 }
 
 .callnow_bt {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
     width: 175px;
     float: left;
 }
 
 .callnow_bt a {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
     width: 100%;
     float: left;
     font-size: 18px;
@@ -441,6 +451,7 @@ button {
 }
 
 .coffee_taital {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
     width: 100%;
     float: left;
     font-size: 40px;
@@ -469,6 +480,7 @@ button {
 }
 
 .types_text {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
     width: 100%;
     float: left;
     font-size: 22px;
@@ -561,6 +573,7 @@ button {
 }
 
 .about_taital {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
     width: 100%;
     float: left;
     font-size: 40px;
@@ -596,14 +609,19 @@ button {
     float: left;
     font-size: 30px;
     color: #3b3b3b;
+    text-align: center;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-weight: bold;
 }
 
 .about_text {
     width: 100%;
     float: left;
-    font-size: 16px;
+    font-size: 25px;
     color: #232222;
     margin: 0px;
+    text-align: -webkit-center;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
 }
 
 .readmore_btn {

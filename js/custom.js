@@ -158,7 +158,7 @@ $(function () {
 		paginationClickable: true,
 		loop: true,
 		autoplay: {
-			delay: 2500,
+			delay: 20,
 			disableOnInteraction: false,
 		},
 		pagination: {
@@ -229,7 +229,7 @@ $(function () {
         infinite: false,
 		prevArrow: '.previous-deal',
 		nextArrow: '.next-deal',
-        speed: 500,
+        speed: 5,
         slidesToShow: 3,
         slidesToScroll: 3,
 		infinite: false,
@@ -264,7 +264,7 @@ $(function () {
         infinite: false,
 		prevArrow: '.previous',
 		nextArrow: '.next',
-        speed: 500,
+        speed: 5,
         slidesToShow: 1,
         slidesToScroll: 1,
         responsive: [{
@@ -314,7 +314,7 @@ $(function () {
      -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
      // optional
      $('#blogCarousel').carousel({
-        interval: 5000
+        interval: 5
      });
 
 
