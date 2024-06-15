@@ -382,7 +382,7 @@
     }
     .prep_text {
         width: 100%;
-        font-size: 19px;
+        font-size: 15px;
     }
     .read_bt a {
         margin-bottom: 30px;
@@ -445,6 +445,21 @@
     }
     .banner_taital_main {
         padding-top: 0px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .btn_main {
+        width: 100%;
+        float: left;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .tasty_text {
         color: #ffffff;
@@ -512,8 +527,8 @@
         margin-top: 30px;
     }
     .prep_text {
-        width: 100%;
-        font-size: 19px;
+        width: 99%;
+        font-size: 13px;
     }
     .read_bt a {
         margin-bottom: 30px;

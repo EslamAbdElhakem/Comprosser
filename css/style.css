@@ -316,6 +316,7 @@ button {
 }
 
 .banner_taital {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
     width: 60%;
     font-size: 40px;
     color: #252525;
@@ -358,14 +359,20 @@ button {
 }
 
 .about_bt a {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    display: inline;
     width: 100%;
     float: left;
     font-size: 18px;
-    background-color: #d48272;
-    color: #fefefd;
     text-align: center;
     padding: 12px;
     border-radius: 5px;
+    color: #fff;
+    background-color: #25D366;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
 }
 
 .about_bt a:hover {
@@ -384,20 +391,19 @@ button {
     width: 100%;
     float: left;
     font-size: 18px;
-    background-color: #d48272;
-    color: #fefefd;
     text-align: center;
     padding: 12px;
     margin-left: 10px;
     border-radius: 5px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
 }
 
 .callnow_bt a:hover {
-    color: #fefefd;
-    background-color: #4a4949;
-}
-
-.callnow_bt.active a {
     color: #fefefd;
     background-color: #4a4949;
 }
@@ -615,6 +621,7 @@ button {
 }
 
 .about_text {
+    line-height: normal;
     width: 100%;
     float: left;
     font-size: 25px;
@@ -723,10 +730,11 @@ button {
 }
 
 .blog_box {
-    width: 100%;
+    width: 90%;
     background-color: #ffffff;
     box-shadow: 0px 0px 20px 0px;
     padding: 0px 0px 30px 0px;
+    margin: 30px;
 }
 
 .blog_img {
@@ -753,6 +761,8 @@ button {
     text-transform: uppercase;
     font-weight: bold;
     padding: 20px 20px 10px 20px;
+    text-align: -webkit-center;
+    font-family: 'IBM Plex Sans Arabic', 'sans-serif';
 }
 
 .lorem_text {
